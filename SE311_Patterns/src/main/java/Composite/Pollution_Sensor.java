@@ -8,6 +8,7 @@ public class Pollution_Sensor implements Sensor
     public Pollution_Sensor()
     {
         this.Sensor_type = "Pollution Sensor("+ID+")";
+        Sensors.add(this);
         ID++;
     }
     

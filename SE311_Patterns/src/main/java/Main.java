@@ -1,8 +1,9 @@
+import Command.*;
 import Composite.*;
+import Facade.*;
 import Factory.*;
 import Iterator.*;
 import Singleton.*;
-
 
 public class Main 
 {
@@ -14,7 +15,7 @@ public class Main
         Singleton_Pattern sp3 = Singleton_Pattern.getInstance();  
         // You only see 1 Singleton system output //
         
-        System.out.println();
+        System.out.println("---------------");
         
         // Iterator Pattern //
        Days DaysOfWeek = new Days();
@@ -26,7 +27,7 @@ public class Main
        }
        // End Of Iterator Pattern //
        
-       System.out.println();
+       System.out.println("---------------");
        
        // Composite Pattern // 
        Sensor Temp_Sen1 = new Temp_Sensor();
@@ -44,21 +45,49 @@ public class Main
        Adder.ShowSensorInfo();
        // Composite Pattern Ends //
        
-       System.out.println();
+       System.out.println("---------------");
        
        // Factory Patten //
-       
        Cake_Builder Cake_Master = new Cake_Builder();
        
        Chocolate_Cake ck = Cake_Master.createChocolateCake();
        Raspberry_Cake rc = Cake_Master.createRaspberryCake();
-       Turkish_Pistachio_Cake vc = Cake_Master.createTurkishPistachio();
-       Vanilla_Cake tc = Cake_Master.createVanillaCake();
+       Turkish_Pistachio_Cake tc = Cake_Master.createTurkishPistachio();
+       Vanilla_Cake vc = Cake_Master.createVanillaCake();
        
        ck.CakeType();
        rc.CakeType();
-       vc.CakeType();
        tc.CakeType();
+       vc.CakeType();
+       // Factory Pattern Ends //
+       
+       System.out.println("---------------");
+       
+       // Facade Pattern //
+       Sensor_Maker sm = new Sensor_Maker();
+       
+       sm.createCongSensor();
+       sm.createNoiseSensor();
+       sm.createPollSensor();
+       sm.createTempSensor();
+       
+       sm.DisplayAllSensors();
+       // Facade Pattern Ends //
+       
+       System.out.println();
+       
+       // Command Pattern //
+       
+       Bank bank = new Bank("Java Bank");
+       
+       Withdraw_Bank Withdraw = new Withdraw_Bank(bank);
+       Deposit_Bank Deposit = new Deposit_Bank(bank);
+       
+       In_Out IO = new In_Out();
+       
+       IO.takeCommand(Withdraw);
+       IO.takeCommand(Deposit);
+       IO.ExecuteCommands(10);
     }   
 }
 

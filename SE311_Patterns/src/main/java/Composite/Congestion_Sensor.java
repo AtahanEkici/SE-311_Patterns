@@ -8,6 +8,7 @@ public class Congestion_Sensor implements Sensor
     public Congestion_Sensor()
     {
         this.Sensor_type = "Congestion Sensor("+ID+")";
+        Sensors.add(this);
         ID++;
     }
     

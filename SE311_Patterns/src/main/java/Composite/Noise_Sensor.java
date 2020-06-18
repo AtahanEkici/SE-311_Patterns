@@ -8,6 +8,7 @@ public class Noise_Sensor implements Sensor
     public Noise_Sensor()
     {
         this.Sensor_type = "Noise Sensor("+ID+")";
+        Sensors.add(this);
         ID++;
     }
     

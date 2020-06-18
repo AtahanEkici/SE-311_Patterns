@@ -8,6 +8,7 @@ public class Temp_Sensor implements Sensor
     public Temp_Sensor()
     {
         this.Sensor_type = "Temperature Sensor("+ID+")";
+        Sensors.add(this);
         ID++;
     }
     
