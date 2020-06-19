@@ -21,13 +21,13 @@ Iterator\Days$1.class
 Observer\Centigrad.class
 Template\InterfacePanel.class
 Visitor\Organ.class
-Adaptor\Sen_Adaptor.class
 Observer\Fahrenheit.class
 Observer\Kelvin.class
 Composite\Sensor.class
 Composite\Composite_Adder.class
 Composite\Congestion_Sensor.class
 Template\Access_Grades.class
+Adapter\Sen_Adaptor.class
 Iterator\Days$NameIterator.class
 Visitor\DisplayOrgans.class
 Observer\Weather.class

@@ -13,6 +13,7 @@ public class Main
 {
     public static void main(String args[])
     {
+        System.out.println("---------------");
         // Singleton Pattern //
         Singleton_Pattern sp = Singleton_Pattern.getInstance();
         Singleton_Pattern sp2 = Singleton_Pattern.getInstance();
@@ -22,13 +23,9 @@ public class Main
         System.out.println("---------------");
         
         // Iterator Pattern //
-       Days DaysOfWeek = new Days();
-        
-       for(Iterator iter = DaysOfWeek.getIterator(); iter.hasNext();)
-       {
-         String name = (String)iter.next();
-         System.out.println("Day : " + name);
-       }
+       String days [] = {"Monday" , "Tuesday" ,"Wednesday" ,"Thursay", "Friday","Saturday","Sunday"};
+       Days DaysOfWeek = new Days(days);
+       DaysOfWeek.printer("Days");
        // End Of Iterator Pattern //
        
        System.out.println("---------------");

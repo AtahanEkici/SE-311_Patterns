@@ -1,7 +1,13 @@
 package Iterator;
 
-public class Days implements Container {
-   public String names[] = {"Monday" , "Tuesday" ,"Wednesday" ,"Thursay", "Friday","Saturday","Sunday"};
+public class Days implements Container
+{
+    public String names[];
+    
+    public Days(String names[])
+    {
+        this.names = names;
+    }
 
    @Override
    public Iterator getIterator() 
@@ -32,5 +38,14 @@ public class Days implements Container {
          }
          return null;
       }		
+   }
+   
+   public void printer(String temp)
+   {      
+       for(Iterator iter = this.getIterator(); iter.hasNext();)
+       {
+         String name = (String)iter.next();
+         System.out.println(""+temp+" : " + name);
+       }
    }
 }
