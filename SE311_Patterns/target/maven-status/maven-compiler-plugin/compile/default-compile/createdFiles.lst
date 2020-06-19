@@ -1,4 +1,5 @@
 Facade\Facade_Pattern.class
+Observer\Observer.class
 Template\Grades.class
 Singleton\Singleton_Pattern.class
 Composite\Pollution_Sensor.class
@@ -17,15 +18,19 @@ Factory\Raspberry_Cake.class
 Composite\Noise_Sensor.class
 Composite\Temp_Sensor.class
 Iterator\Days$1.class
+Observer\Centigrad.class
 Template\InterfacePanel.class
 Visitor\Organ.class
 Adaptor\Sen_Adaptor.class
+Observer\Fahrenheit.class
+Observer\Kelvin.class
 Composite\Sensor.class
 Composite\Composite_Adder.class
 Composite\Congestion_Sensor.class
 Template\Access_Grades.class
 Iterator\Days$NameIterator.class
 Visitor\DisplayOrgans.class
+Observer\Weather.class
 Factory\Cake.class
 Iterator\Container.class
 Visitor\Human.class

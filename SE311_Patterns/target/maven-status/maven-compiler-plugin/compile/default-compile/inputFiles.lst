@@ -4,13 +4,17 @@ C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Fa
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Iterator\Container.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Visitor\Liver.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Command\In_Out.java
+C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Observer\Weather.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Composite\Sensor.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Factory\Chocolate_Cake.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Template\InterfacePanel.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Visitor\Organ.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Factory\Turkish_Pistachio_Cake.java
+C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Observer\Fahrenheit.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Factory\Cake_Builder.java
+C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Observer\Observer.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Visitor\DisplayOrgans.java
+C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Observer\Centigrad.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Visitor\Human.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Factory\Cake.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Factory\Vanilla_Cake.java
@@ -24,6 +28,7 @@ C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Fa
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Template\Access_Grades.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Command\Deposit_Bank.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Composite\Noise_Sensor.java
+C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Observer\Kelvin.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Command\Bank.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Template\Interface.java
 C:\Users\Atahan Ekici\Documents\NetBeansProjects\SE311_Patterns\src\main\java\Adaptor\Sen_Adaptor.java

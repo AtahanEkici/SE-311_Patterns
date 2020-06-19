@@ -4,6 +4,7 @@ import Composite.*;
 import Facade.*;
 import Factory.*;
 import Iterator.*;
+import Observer.*;
 import Singleton.*;
 import Template.*;
 import Visitor.*;
@@ -122,9 +123,14 @@ public class Main
         System.out.println("---------------");
         
         // Observer Pattern //
+        Weather weather = new  Weather();
         
+        new Centigrad(weather);
+        new Kelvin(weather);
+        new Fahrenheit(weather);
         
-        
+        weather.setTemp(50);
+        weather.setTemp(80);
         // Observer Pattern Ends // 
     }   
 }
