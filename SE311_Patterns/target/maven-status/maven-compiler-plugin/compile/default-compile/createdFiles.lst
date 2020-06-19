@@ -16,6 +16,7 @@ Composite\Noise_Sensor.class
 Composite\Temp_Sensor.class
 Iterator\Days$1.class
 Template\InterfacePanel.class
+Adaptor\Sen_Adaptor.class
 Composite\Sensor.class
 Composite\Composite_Adder.class
 Composite\Congestion_Sensor.class

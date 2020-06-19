@@ -1,3 +1,4 @@
+import Adaptor.*;
 import Command.*;
 import Composite.*;
 import Facade.*;
@@ -100,7 +101,14 @@ public class Main
        System.out.println("---------------");
        
        // Adaptor Pattern //
+       Sen_Adaptor adapt = new Sen_Adaptor();
        
+       //adapt.CheckClass(Temp_Sen1);
+       //adapt.CheckClass(Cong_Sen1);
+       //adapt.CheckClass(Pol_Sen1);
+       //adapt.CheckClass(Noi_Sen1);
+       
+       adapt.Check_All_Sensors();
        // Adaptor Pattern Ends //
     }   
 }

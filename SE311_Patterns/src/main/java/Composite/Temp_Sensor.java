@@ -2,19 +2,21 @@ package Composite;
 
 public class Temp_Sensor implements Sensor
 {
-    int ID = 1;
-    String Sensor_type;
+    public final int ID;
+    public static int counter = 1;
+    public String Sensor_type;
     
     public Temp_Sensor()
     {
+        ID = counter;
+        counter++;
         this.Sensor_type = "Temperature Sensor("+ID+")";
         Sensors.add(this);
-        ID++;
     }
     
     @Override
     public void ShowSensorInfo()
     {
-        System.out.println(Sensor_type);
+         System.out.println(Sensor_type);
     }  
 }
