@@ -1,4 +1,4 @@
-import Adaptor.*;
+import Adapter.Sen_Adaptor;
 import Command.*;
 import Composite.*;
 import Facade.*;
@@ -17,7 +17,7 @@ public class Main
         Singleton_Pattern sp = Singleton_Pattern.getInstance();
         Singleton_Pattern sp2 = Singleton_Pattern.getInstance();
         Singleton_Pattern sp3 = Singleton_Pattern.getInstance();  
-        // You only see 1 Singleton system output //
+        // You only see 1 Singleton output //
         
         System.out.println("---------------");
         
@@ -130,6 +130,7 @@ public class Main
         new Fahrenheit(weather);
         
         weather.setTemp(50);
+        System.out.println("---------------");
         weather.setTemp(80);
         // Observer Pattern Ends // 
     }   
