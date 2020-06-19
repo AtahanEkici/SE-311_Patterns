@@ -6,6 +6,7 @@ import Factory.*;
 import Iterator.*;
 import Singleton.*;
 import Template.*;
+import Visitor.*;
 
 public class Main 
 {
@@ -103,13 +104,28 @@ public class Main
        // Adaptor Pattern //
        Sen_Adaptor adapt = new Sen_Adaptor();
        
-       //adapt.CheckClass(Temp_Sen1);
-       //adapt.CheckClass(Cong_Sen1);
-       //adapt.CheckClass(Pol_Sen1);
-       //adapt.CheckClass(Noi_Sen1);
+       //adapt.CheckClass(Temp_Sen1);//
+       //adapt.CheckClass(Cong_Sen1);//
+       //adapt.CheckClass(Pol_Sen1);//
+       //adapt.CheckClass(Noi_Sen1);//
        
-       adapt.Check_All_Sensors();
+         adapt.Check_All_Sensors();
        // Adaptor Pattern Ends //
+       
+        System.out.println("---------------");
+       
+       // Visitor Pattern //
+       Human human = new Organ();
+       human.accept(new DisplayOrgans());
+       // Visitor Pattern Ends //
+       
+        System.out.println("---------------");
+        
+        // Observer Pattern //
+        
+        
+        
+        // Observer Pattern Ends // 
     }   
 }
 
