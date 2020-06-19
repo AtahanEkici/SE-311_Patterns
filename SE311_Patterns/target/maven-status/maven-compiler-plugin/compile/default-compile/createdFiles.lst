@@ -1,4 +1,5 @@
 Facade\Facade_Pattern.class
+Template\Grades.class
 Singleton\Singleton_Pattern.class
 Composite\Pollution_Sensor.class
 Command\Command.class
@@ -9,13 +10,16 @@ Main.class
 Factory\Vanilla_Cake.class
 Facade\Sensor_Maker.class
 Iterator\Days.class
+Template\Interface.class
 Factory\Raspberry_Cake.class
 Composite\Noise_Sensor.class
 Composite\Temp_Sensor.class
 Iterator\Days$1.class
+Template\InterfacePanel.class
 Composite\Sensor.class
 Composite\Composite_Adder.class
 Composite\Congestion_Sensor.class
+Template\Access_Grades.class
 Iterator\Days$NameIterator.class
 Factory\Cake.class
 Iterator\Container.class

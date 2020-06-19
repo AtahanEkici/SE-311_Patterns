@@ -4,6 +4,7 @@ import Facade.*;
 import Factory.*;
 import Iterator.*;
 import Singleton.*;
+import Template.*;
 
 public class Main 
 {
@@ -74,10 +75,9 @@ public class Main
        sm.DisplayAllSensors();
        // Facade Pattern Ends //
        
-       System.out.println();
+       System.out.println("---------------");
        
        // Command Pattern //
-       
        Bank bank = new Bank("Java Bank");
        
        Withdraw_Bank Withdraw = new Withdraw_Bank(bank);
@@ -88,6 +88,20 @@ public class Main
        IO.takeCommand(Withdraw);
        IO.takeCommand(Deposit);
        IO.ExecuteCommands(10);
+       // Command Pattern Ends //
+       
+       System.out.println("---------------");
+       
+       // Template Pattern //
+       InterfacePanel ip1 = new InterfacePanel();
+       ip1.showInterface1();
+       // Template Pattern Ends //
+       
+       System.out.println("---------------");
+       
+       // Adaptor Pattern //
+       
+       // Adaptor Pattern Ends //
     }   
 }
 
